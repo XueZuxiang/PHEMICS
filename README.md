@@ -7,9 +7,7 @@ Pronounced: **FEE-mix**
 PHEMICS is a MATLAB solver for the linear kinetic dispersion relation of **parallel-propagating EMIC waves** in a multi-ion plasma. It calculates the complex normalized wave frequency
 
 $$
-x = \frac{\omega}{\Omega_p}
-  = \frac{\omega_r}{\Omega_p}
-  + i\frac{\gamma}{\Omega_p},
+x = \frac{\omega}{\Omega_p}  = \frac{\omega_r}{\Omega_p}  + i\frac{\gamma}{\Omega_p},
 $$
 
 where $\omega_r$ is the real wave frequency and $\gamma$ is the linear growth or damping rate. A positive imaginary part indicates wave growth, while a negative imaginary part indicates damping.
@@ -21,7 +19,7 @@ The code supports both cold ion components and finite-temperature anisotropic io
 ## Features
 
 - Solves the parallel-propagating left-hand EMIC dispersion relation.
-- Supports multi-ion plasmas, including H$^+$, He$^+$, O$^+$, or user-defined ion species.
+- Supports multi-ion plasmas, including $H^+$, $He^+$, $O^+$, or user-defined ion species.
 - Allows both cold-fluid ion components and finite-temperature kinetic ion components.
 - Includes temperature anisotropy through
 
@@ -198,7 +196,7 @@ dd_cold_ion = [ns/ne;
                ms/mp];
 ```
 
-Each column represents one cold ion species. For example, cold H$^+$ and cold He$^+$:
+Each column represents one cold ion species. For example, cold $H^+$ and cold $He^+$:
 
 ```matlab
 dd_cold_ion = [
@@ -228,7 +226,7 @@ dd_warm_ion = [ns/ne;
 
 Each column represents one finite-temperature ion species. This input cannot be empty.
 
-The first warm ion population is used as the reference species for the kinetic normalization. In typical EMIC applications, this should be the hot H$^+$ population.
+The first warm ion population is used as the reference species for the kinetic normalization. In typical EMIC applications, this should be the hot $H^+$ population.
 
 ---
 
@@ -293,37 +291,11 @@ where the sum includes all cold and warm ion species.
 
 ---
 
-## Numerical cautions
-
-- Very small `K` can be difficult because the plasma dispersion function argument can become large.
-- Roots close to ion cyclotron frequencies can be numerically delicate.
-- Branch tracking is sensitive to the initial guess.
-- A species with zero parallel temperature should be treated as a cold ion, not as a warm/hot ion.
-- The rational approximation used for the plasma dispersion function should be tested against a high-accuracy reference if very high precision is required.
-
----
-
-## Recommended repository layout
-
-```text
-PHEMICS/
-├── README.md
-├── PHEMICS.m
-├── solveBranch.m
-├── realImagEquation.m
-├── dispersionRelation.m
-├── plasmaDispersionFunction.m
-└── examples/
-    └── example_basic.m
-```
-
----
-
 ## Author
 
 **Xue Z.X.**
 
-Code development assistance: ChatGPT, OpenAI.  
+Code development assistance: ChatGPT (GPT-5.5 Thinking), OpenAI.  
 Final implementation, verification, and scientific interpretation by Xue Z.X.
 
 ---
