@@ -292,32 +292,6 @@ where the sum includes all cold and warm ion species.
 
 ---
 
-## Numerical cautions
-
-- Very small `K` can be difficult because the plasma dispersion function argument can become large.
-- Roots close to ion cyclotron frequencies can be numerically delicate.
-- Branch tracking is sensitive to the initial guess.
-- A species with zero parallel temperature should be treated as a cold ion, not as a warm/hot ion.
-- The rational approximation used for the plasma dispersion function should be tested against a high-accuracy reference if very high precision is required.
-
----
-
-## Recommended repository layout
-
-```text
-PHEMICS/
-├── README.md
-├── PHEMICS.m
-├── solveBranch.m
-├── realImagEquation.m
-├── dispersionRelation.m
-├── plasmaDispersionFunction.m
-└── examples/
-    └── example_basic.m
-```
-
----
-
 ## Author
 
 **Xue Z.X.**
@@ -327,18 +301,3 @@ Final implementation, verification, and scientific interpretation by Xue Z.X.
 
 ---
 
-## License
-
-Please add a license file before public release. For an open-source GitHub repository, common choices include MIT, BSD-3-Clause, GPL-3.0, or Apache-2.0.
-
----
-
-## Citation
-
-If you use PHEMICS in scientific work, please cite the relevant paper, thesis, or repository release associated with this code.
-
-A suggested software citation format is:
-
-```text
-Xue, Z. X. (2026). PHEMICS: Parallel Hot-plasma EMIC Solver for Multi-ion Anisotropic Plasmas. GitHub repository.
-```
