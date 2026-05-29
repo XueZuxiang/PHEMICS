@@ -293,7 +293,7 @@ where the sum includes all cold and warm ion species.
 
 ## Author
 
-**Xue Z.X.**
+**Z.X. Xue**
 
 Code development assistance: ChatGPT (GPT-5.5 Thinking), OpenAI.  
 Final implementation, verification, and scientific interpretation by Xue Z.X.
