@@ -295,6 +295,8 @@ where the sum includes all cold and warm ion species.
 ## Author
 
 **Z.X. Xue**
+Email: [xue.zx@whu.edu.cn](mailto:xue.zx@whu.edu.cn)  
+ORCID: [https://orcid.org/0000-0000-0000-0000](https://orcid.org/0000-0000-0000-0000)
 
 Code development assistance: ChatGPT (GPT-5.5 Thinking), OpenAI.  
 Final implementation, verification, and scientific interpretation by Xue Z.X.
