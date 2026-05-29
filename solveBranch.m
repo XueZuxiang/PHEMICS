@@ -87,14 +87,6 @@ function xs = solveBranch(Kvec, x0, p, opts_in)
 %       plasmaDispersionFunction.m
 %
 %
-%   Notes
-%   -----
-%   1. Very small K can be difficult because |zeta| can become large.
-%   2. Roots close to cold-ion cyclotron poles may be numerically delicate.
-%   3. Branch tracking is sensitive to the initial guess x0.
-%   4. If many NaN values appear, try using a better initial guess, a finer
-%      K grid, or a bounded solver such as lsqnonlin.
-%
 %   Author: Xue Z.X.
 %   Code development assistance: ChatGPT (GPT-5.5 Thinking), OpenAI
 %   Final implementation, verification, and scientific interpretation by Xue Z.X.
