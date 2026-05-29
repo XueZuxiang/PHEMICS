@@ -1,7 +1,7 @@
 <!-- GitHub math fixed version: all display equations use dollar-dollar math blocks. -->
 # PHEMICS
 
-**PHEMICS** — **Parallel Hot-plasma ElectroMagnetic Ion Cyclotron mode Solver for Multi-ion Anisotropic Plasmas**  
+**PHEMICS** — **Parallel Hot-plasma ElectroMagnetic Ion Cyclotron (EMIC) mode Solver for Multi-ion Anisotropic Plasmas**  
 
 PHEMICS is a MATLAB solver for the linear kinetic dispersion relation of **parallel-propagating EMIC waves** in a multi-ion plasma. It calculates the complex normalized wave frequency
 
