@@ -1,7 +1,6 @@
 # PHEMICS
 
 **PHEMICS** — **Parallel Hot-plasma EMIC Solver for Multi-ion Anisotropic Plasmas**  
-Pronounced: **FEE-mix**
 
 PHEMICS is a MATLAB solver for the linear kinetic dispersion relation of **parallel-propagating EMIC waves** in a multi-ion plasma. It calculates the complex normalized wave frequency
 
