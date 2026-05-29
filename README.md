@@ -302,16 +302,7 @@ Final implementation, verification, and scientific interpretation by Xue Z.X.
 
 ## License
 
-Please add a license file before public release. For an open-source GitHub repository, common choices include MIT, BSD-3-Clause, GPL-3.0, or Apache-2.0.
+PolyForm Noncommercial License 1.0.0
 
 ---
 
-## Citation
-
-If you use PHEMICS in scientific work, please cite the relevant paper, thesis, or repository release associated with this code.
-
-A suggested software citation format is:
-
-```text
-Xue, Z. X. (2026). PHEMICS: Parallel Hot-plasma EMIC Solver for Multi-ion Anisotropic Plasmas. GitHub repository.
-```
