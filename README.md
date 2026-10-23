@@ -180,7 +180,7 @@ Background magnetic field in tesla.
 
 ### `ne`
 
-Electron number density in \mathrm{m}^{-3} m$^{-3}$.  
+Electron number density in $$m$^{-3}$$$.  
 For reference:
 
 $$
